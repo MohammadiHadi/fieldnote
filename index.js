@@ -16,4 +16,4 @@ app.use(logger);
 app.use('/notes', notesRoutes);
 app.use('/users', usersRoutes);
 
-app.listen(PORT, () => console.log('Server running on port 3000'));
+app.listen(PORT, () => console.log(`Server running on port ${PORT}`));
